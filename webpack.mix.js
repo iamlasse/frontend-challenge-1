@@ -1,3 +1,10 @@
 let mix = require('laravel-mix');
 
-mix.sass('qr-code-component-main/scss/app.scss', 'qr-code-component-main/dist');
+mix.sass('scss/app.scss', 'dist')
+
+.options({
+    hmrOptions: {
+        host: '127.0.0.1',
+        port: 8080
+    }
+})
