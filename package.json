@@ -1,0 +1,20 @@
+{
+  "name": "qr-code-component-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "build": "mix watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "resolve-url-loader": "^5.0.0",
+    "sass-loader": "^12.6.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "laravel-mix": "^6.0.49"
+  }
+}
