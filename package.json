@@ -7,7 +7,7 @@
     "dev": "cross-env NODE_ENV=development webpack --progress",
     "watch": "cross-env NODE_ENV=development webpack --watch --progress",
     "hot": "mix watch --hot",
-    "prod": "cross-env NODE_ENV=production webpack --progress"
+    "prod": "mix --production"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +15,7 @@
   "devDependencies": {
     "cross-env": "^7.0.3",
     "resolve-url-loader": "^5.0.0",
+    "sass": "^1.55.0",
     "sass-loader": "^12.6.0",
     "webpack-cli": "^4.10.0"
   },
